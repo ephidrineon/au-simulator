@@ -3,7 +3,7 @@
 
     Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs) Handles TrackBar1.Scroll
         Revolutions.Value = TrackBar1.Value
-        Label8.Text = TrackBar1.Value
+
 
 
     End Sub
@@ -144,5 +144,26 @@
         End If
     End Sub
 
+    Private Sub RevSway_Tick(sender As Object, e As EventArgs) Handles RevSway.Tick
+        Label8.Text = TrackBar1.Value
+    End Sub
 
+    Private Sub RevSwayDown_Tick(sender As Object, e As EventArgs)
+        If Revolutions.Value < 6996 Then
+            Revolutions.Value = Revolutions.Value + 4
+        End If
+    End Sub
+
+    Private Sub LambdaError_Tick(sender As Object, e As EventArgs) Handles LambdaError.Tick
+        LambdaBar.Value = LambdaBar.Value + 25
+    End Sub
+
+    Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
+        If CheckBox2.Checked = True Then
+            LambdaError.Enabled = True
+            LambdaError.Start()
+        Else
+            LambdaError.Stop()
+        End If
+    End Sub
 End Class

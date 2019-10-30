@@ -234,7 +234,6 @@ Partial Class Form5
         '
         'TextBox5
         '
-        Me.TextBox5.Enabled = False
         Me.TextBox5.Location = New System.Drawing.Point(279, 204)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(67, 20)

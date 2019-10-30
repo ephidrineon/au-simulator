@@ -15,3 +15,4 @@ C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimula
 C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.Form5.resources
 C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.Form6.resources
 C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.Form7.resources
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.Form8.resources

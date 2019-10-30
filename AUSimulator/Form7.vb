@@ -14,20 +14,22 @@
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
         Label8.Text = Form2.CoolantBar.Value
         Label3.Text = Form2.Revolutions.Value
-        If Form2.Revolutions.Value < 4000 And Form2.Revolutions.Value > 2000 Then
+        If Form2.Revolutions.Value > ProgressBar1.Minimum And Form2.Revolutions.Value < ProgressBar1.Maximum Then
             Me.ProgressBar1.Value = Form2.Revolutions.Value
-        ElseIf Form2.Revolutions.Value > 4000 Then
-            Me.ProgressBar1.Value = 4000
+        ElseIf Form2.Revolutions.Value > ProgressBar1.Maximum Then
+            Me.ProgressBar1.Value = ProgressBar1.Maximum
         End If
-        If Form2.Revolutions.Value > 2000 And Form2.Revolutions.Value < 4000 Then
+        If Form2.Revolutions.Value > ProgressBar1.Minimum And Form2.Revolutions.Value < ProgressBar1.Maximum Then
             Me.ProgressBar1.Value = Form2.Revolutions.Value
-        ElseIf Form2.Revolutions.Value < 2000 Then
-            Me.ProgressBar1.Value = 2000
+        ElseIf Form2.Revolutions.Value < ProgressBar1.Minimum Then
+            Me.ProgressBar1.Value = ProgressBar1.Minimum
         End If
         Label3.Text = Form2.Revolutions.Value
     End Sub
 
     Private Sub Form7_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Label7.Text = Form5.EngTemp.Text
+        ProgressBar1.Minimum = Form5.RevLow.Text
+        ProgressBar1.Maximum = Form5.RevHigh.Text
     End Sub
 End Class

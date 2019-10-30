@@ -60,6 +60,9 @@ Partial Class Form2
         Me.Label22 = New System.Windows.Forms.Label()
         Me.ThermalSimulation = New System.Windows.Forms.Timer(Me.components)
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.RevSway = New System.Windows.Forms.Timer(Me.components)
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.LambdaError = New System.Windows.Forms.Timer(Me.components)
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CoolantTrack, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.OilTrack, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -374,11 +377,30 @@ Partial Class Form2
         Me.CheckBox1.Text = "OBD-Adapter verbunden"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
+        'RevSway
+        '
+        Me.RevSway.Enabled = True
+        Me.RevSway.Interval = 250
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Location = New System.Drawing.Point(249, 387)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(113, 17)
+        Me.CheckBox2.TabIndex = 33
+        Me.CheckBox2.Text = "Lambda-Störgröße"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'LambdaError
+        '
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(400, 410)
+        Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label21)
@@ -460,4 +482,7 @@ Partial Class Form2
     Friend WithEvents Label22 As Label
     Friend WithEvents ThermalSimulation As Timer
     Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents RevSway As Timer
+    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents LambdaError As Timer
 End Class
