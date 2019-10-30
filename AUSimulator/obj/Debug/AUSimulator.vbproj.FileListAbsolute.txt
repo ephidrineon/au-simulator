@@ -1,0 +1,17 @@
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\bin\Debug\AUSimulator.exe.config
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\bin\Debug\AUSimulator.exe
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\bin\Debug\AUSimulator.pdb
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\bin\Debug\AUSimulator.xml
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.vbprojAssemblyReference.cache
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.Form1.resources
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.Resources.resources
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.vbproj.GenerateResource.cache
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.exe
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.xml
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.pdb
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.Form2.resources
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.Form3.resources
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.Form4.resources
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.Form5.resources
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.Form6.resources
+C:\Users\Fabian Mielicki\source\repos\AUSimulator\AUSimulator\obj\Debug\AUSimulator.Form7.resources
