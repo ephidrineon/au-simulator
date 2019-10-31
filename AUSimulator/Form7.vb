@@ -1,6 +1,6 @@
 ﻿Public Class Form7
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        If Label8.Text >= Label7.Text And ProgressBar1.Value > Form5.RevLow.Text And ProgressBar1.Value < Form5.RevHigh.Text Then
+        If ProgressBar1.Value > Form5.RevLow.Text And ProgressBar1.Value < Form5.RevHigh.Text Then
             Label8.ForeColor = Color.Green
             ProgressBar2.PerformStep()
         Else ProgressBar2.Value = 0
@@ -31,5 +31,10 @@
         Label7.Text = Form5.EngTemp.Text
         ProgressBar1.Minimum = Form5.RevLow.Text
         ProgressBar1.Maximum = Form5.RevHigh.Text
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Hide()
+        Form8.Show()
     End Sub
 End Class
