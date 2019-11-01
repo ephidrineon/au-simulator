@@ -49,11 +49,10 @@
     End Sub
 
     Private Sub TempScaleAndHighIdle_Tick(sender As Object, e As EventArgs) Handles TempScaleAndHighIdle.Tick
-        If CoolantBar.Value < 20 Then
-            TrackBar1.Minimum = 1200
-        ElseIf CoolantBar.Value > 20 Then
-            TrackBar1.Minimum = 780
-        End If
+        TrackBar1.Minimum = TextBox2.Text
+
+        Revolutions.Maximum = TextBox1.Text
+        TrackBar1.Maximum = TextBox1.Text
 
         If CoolantBar.Value <= OilBar.Value - 20 And CoolantBar.Value > 20 Then
             CoolantTrack.Value = OilTrack.Value - 19
@@ -165,5 +164,9 @@
         Else
             LambdaError.Stop()
         End If
+    End Sub
+
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Revolutions.Value = 780
     End Sub
 End Class

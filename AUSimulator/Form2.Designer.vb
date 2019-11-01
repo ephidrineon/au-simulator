@@ -63,6 +63,12 @@ Partial Class Form2
         Me.RevSway = New System.Windows.Forms.Timer(Me.components)
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.LambdaError = New System.Windows.Forms.Timer(Me.components)
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CoolantTrack, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.OilTrack, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -395,11 +401,69 @@ Partial Class Form2
         'LambdaError
         '
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(272, 412)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(78, 20)
+        Me.TextBox1.TabIndex = 34
+        Me.TextBox1.Text = "7000"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Location = New System.Drawing.Point(229, 415)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(40, 13)
+        Me.Label23.TabIndex = 35
+        Me.Label23.Text = "Limiter:"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(61, 412)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(78, 20)
+        Me.TextBox2.TabIndex = 36
+        Me.TextBox2.Text = "780"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Location = New System.Drawing.Point(13, 415)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(48, 13)
+        Me.Label24.TabIndex = 37
+        Me.Label24.Text = "Leerlauf:"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Location = New System.Drawing.Point(147, 415)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(36, 13)
+        Me.Label25.TabIndex = 38
+        Me.Label25.Text = "U/min"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Location = New System.Drawing.Point(352, 415)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(36, 13)
+        Me.Label26.TabIndex = 39
+        Me.Label26.Text = "U/min"
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(400, 410)
+        Me.ClientSize = New System.Drawing.Size(400, 444)
+        Me.Controls.Add(Me.Label26)
+        Me.Controls.Add(Me.Label25)
+        Me.Controls.Add(Me.Label24)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.Label23)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label22)
@@ -485,4 +549,10 @@ Partial Class Form2
     Friend WithEvents RevSway As Timer
     Friend WithEvents CheckBox2 As CheckBox
     Friend WithEvents LambdaError As Timer
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label23 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label26 As Label
 End Class
