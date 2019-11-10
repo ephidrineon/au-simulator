@@ -50,6 +50,8 @@
 
     Private Sub TempScaleAndHighIdle_Tick(sender As Object, e As EventArgs) Handles TempScaleAndHighIdle.Tick
         TrackBar1.Minimum = TextBox2.Text
+        Label6.Text = TextBox1.Text
+
 
         Revolutions.Maximum = TextBox1.Text
         TrackBar1.Maximum = TextBox1.Text

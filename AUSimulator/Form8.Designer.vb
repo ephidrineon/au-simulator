@@ -179,7 +179,7 @@ Partial Class Form8
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(191, 13)
         Me.Label1.TabIndex = 52
-        Me.Label1.Text = "Lambdasondenprüfung mit Auslenknug"
+        Me.Label1.Text = "Lambdasondenprüfung mit Auslenkung"
         '
         'Label2
         '
@@ -213,7 +213,7 @@ Partial Class Form8
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(379, 142)
+        Me.Label9.Location = New System.Drawing.Point(300, 142)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(53, 13)
         Me.Label9.TabIndex = 69
@@ -249,7 +249,7 @@ Partial Class Form8
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form8"
-        Me.Text = "Form8"
+        Me.Text = "Abgasuntersuchungs-Simulator [Benzin-Modus]"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
